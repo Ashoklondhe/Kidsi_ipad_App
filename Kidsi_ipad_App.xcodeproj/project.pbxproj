@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F901727D1A1B643B00DF03AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F901727C1A1B643B00DF03AA /* Foundation.framework */; };
+		F901727F1A1B643B00DF03AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F901727E1A1B643B00DF03AA /* CoreGraphics.framework */; };
+		F90172811A1B643B00DF03AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90172801A1B643B00DF03AA /* UIKit.framework */; };
+		F90172871A1B643B00DF03AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F90172851A1B643B00DF03AA /* InfoPlist.strings */; };
+		F90172891A1B643B00DF03AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90172881A1B643B00DF03AA /* main.m */; };
+		F901728D1A1B643B00DF03AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F901728C1A1B643B00DF03AA /* AppDelegate.m */; };
+		F90172901A1B643B00DF03AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F901728E1A1B643B00DF03AA /* Main.storyboard */; };
+		F90172931A1B643B00DF03AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90172921A1B643B00DF03AA /* ViewController.m */; };
+		F90172951A1B643B00DF03AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90172941A1B643B00DF03AA /* Images.xcassets */; };
+		F901729C1A1B643B00DF03AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F901729B1A1B643B00DF03AA /* XCTest.framework */; };
+		F901729D1A1B643B00DF03AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F901727C1A1B643B00DF03AA /* Foundation.framework */; };
+		F901729E1A1B643B00DF03AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90172801A1B643B00DF03AA /* UIKit.framework */; };
+		F90172A61A1B643B00DF03AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F90172A41A1B643B00DF03AA /* InfoPlist.strings */; };
+		F90172A81A1B643B00DF03AA /* Kidsi_ipad_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F90172A71A1B643B00DF03AA /* Kidsi_ipad_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F901729F1A1B643B00DF03AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F90172711A1B643B00DF03AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F90172781A1B643B00DF03AA;
+			remoteInfo = Kidsi_ipad_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F90172791A1B643B00DF03AA /* Kidsi_ipad_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kidsi_ipad_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F901727C1A1B643B00DF03AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F901727E1A1B643B00DF03AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F90172801A1B643B00DF03AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F90172841A1B643B00DF03AA /* Kidsi_ipad_App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kidsi_ipad_App-Info.plist"; sourceTree = "<group>"; };
+		F90172861A1B643B00DF03AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F90172881A1B643B00DF03AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F901728A1A1B643B00DF03AA /* Kidsi_ipad_App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kidsi_ipad_App-Prefix.pch"; sourceTree = "<group>"; };
+		F901728B1A1B643B00DF03AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F901728C1A1B643B00DF03AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F901728F1A1B643B00DF03AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F90172911A1B643B00DF03AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F90172921A1B643B00DF03AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F90172941A1B643B00DF03AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F901729A1A1B643B00DF03AA /* Kidsi_ipad_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kidsi_ipad_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F901729B1A1B643B00DF03AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F90172A31A1B643B00DF03AA /* Kidsi_ipad_AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kidsi_ipad_AppTests-Info.plist"; sourceTree = "<group>"; };
+		F90172A51A1B643B00DF03AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F90172A71A1B643B00DF03AA /* Kidsi_ipad_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kidsi_ipad_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F90172761A1B643B00DF03AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F901727F1A1B643B00DF03AA /* CoreGraphics.framework in Frameworks */,
+				F90172811A1B643B00DF03AA /* UIKit.framework in Frameworks */,
+				F901727D1A1B643B00DF03AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90172971A1B643B00DF03AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F901729C1A1B643B00DF03AA /* XCTest.framework in Frameworks */,
+				F901729E1A1B643B00DF03AA /* UIKit.framework in Frameworks */,
+				F901729D1A1B643B00DF03AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F90172701A1B643B00DF03AA = {
+			isa = PBXGroup;
+			children = (
+				F90172821A1B643B00DF03AA /* Kidsi_ipad_App */,
+				F90172A11A1B643B00DF03AA /* Kidsi_ipad_AppTests */,
+				F901727B1A1B643B00DF03AA /* Frameworks */,
+				F901727A1A1B643B00DF03AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F901727A1A1B643B00DF03AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F90172791A1B643B00DF03AA /* Kidsi_ipad_App.app */,
+				F901729A1A1B643B00DF03AA /* Kidsi_ipad_AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F901727B1A1B643B00DF03AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F901727C1A1B643B00DF03AA /* Foundation.framework */,
+				F901727E1A1B643B00DF03AA /* CoreGraphics.framework */,
+				F90172801A1B643B00DF03AA /* UIKit.framework */,
+				F901729B1A1B643B00DF03AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F90172821A1B643B00DF03AA /* Kidsi_ipad_App */ = {
+			isa = PBXGroup;
+			children = (
+				F901728B1A1B643B00DF03AA /* AppDelegate.h */,
+				F901728C1A1B643B00DF03AA /* AppDelegate.m */,
+				F901728E1A1B643B00DF03AA /* Main.storyboard */,
+				F90172911A1B643B00DF03AA /* ViewController.h */,
+				F90172921A1B643B00DF03AA /* ViewController.m */,
+				F90172941A1B643B00DF03AA /* Images.xcassets */,
+				F90172831A1B643B00DF03AA /* Supporting Files */,
+			);
+			path = Kidsi_ipad_App;
+			sourceTree = "<group>";
+		};
+		F90172831A1B643B00DF03AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F90172841A1B643B00DF03AA /* Kidsi_ipad_App-Info.plist */,
+				F90172851A1B643B00DF03AA /* InfoPlist.strings */,
+				F90172881A1B643B00DF03AA /* main.m */,
+				F901728A1A1B643B00DF03AA /* Kidsi_ipad_App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F90172A11A1B643B00DF03AA /* Kidsi_ipad_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F90172A71A1B643B00DF03AA /* Kidsi_ipad_AppTests.m */,
+				F90172A21A1B643B00DF03AA /* Supporting Files */,
+			);
+			path = Kidsi_ipad_AppTests;
+			sourceTree = "<group>";
+		};
+		F90172A21A1B643B00DF03AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F90172A31A1B643B00DF03AA /* Kidsi_ipad_AppTests-Info.plist */,
+				F90172A41A1B643B00DF03AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F90172781A1B643B00DF03AA /* Kidsi_ipad_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90172AB1A1B643B00DF03AA /* Build configuration list for PBXNativeTarget "Kidsi_ipad_App" */;
+			buildPhases = (
+				F90172751A1B643B00DF03AA /* Sources */,
+				F90172761A1B643B00DF03AA /* Frameworks */,
+				F90172771A1B643B00DF03AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kidsi_ipad_App;
+			productName = Kidsi_ipad_App;
+			productReference = F90172791A1B643B00DF03AA /* Kidsi_ipad_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F90172991A1B643B00DF03AA /* Kidsi_ipad_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90172AE1A1B643B00DF03AA /* Build configuration list for PBXNativeTarget "Kidsi_ipad_AppTests" */;
+			buildPhases = (
+				F90172961A1B643B00DF03AA /* Sources */,
+				F90172971A1B643B00DF03AA /* Frameworks */,
+				F90172981A1B643B00DF03AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F90172A01A1B643B00DF03AA /* PBXTargetDependency */,
+			);
+			name = Kidsi_ipad_AppTests;
+			productName = Kidsi_ipad_AppTests;
+			productReference = F901729A1A1B643B00DF03AA /* Kidsi_ipad_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F90172711A1B643B00DF03AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "MDC Concepts";
+				TargetAttributes = {
+					F90172991A1B643B00DF03AA = {
+						TestTargetID = F90172781A1B643B00DF03AA;
+					};
+				};
+			};
+			buildConfigurationList = F90172741A1B643B00DF03AA /* Build configuration list for PBXProject "Kidsi_ipad_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F90172701A1B643B00DF03AA;
+			productRefGroup = F901727A1A1B643B00DF03AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F90172781A1B643B00DF03AA /* Kidsi_ipad_App */,
+				F90172991A1B643B00DF03AA /* Kidsi_ipad_AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F90172771A1B643B00DF03AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90172951A1B643B00DF03AA /* Images.xcassets in Resources */,
+				F90172871A1B643B00DF03AA /* InfoPlist.strings in Resources */,
+				F90172901A1B643B00DF03AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90172981A1B643B00DF03AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90172A61A1B643B00DF03AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F90172751A1B643B00DF03AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90172931A1B643B00DF03AA /* ViewController.m in Sources */,
+				F901728D1A1B643B00DF03AA /* AppDelegate.m in Sources */,
+				F90172891A1B643B00DF03AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90172961A1B643B00DF03AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90172A81A1B643B00DF03AA /* Kidsi_ipad_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F90172A01A1B643B00DF03AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F90172781A1B643B00DF03AA /* Kidsi_ipad_App */;
+			targetProxy = F901729F1A1B643B00DF03AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F90172851A1B643B00DF03AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90172861A1B643B00DF03AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F901728E1A1B643B00DF03AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F901728F1A1B643B00DF03AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F90172A41A1B643B00DF03AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90172A51A1B643B00DF03AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F90172A91A1B643B00DF03AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F90172AA1A1B643B00DF03AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F90172AC1A1B643B00DF03AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kidsi_ipad_App/Kidsi_ipad_App-Prefix.pch";
+				INFOPLIST_FILE = "Kidsi_ipad_App/Kidsi_ipad_App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F90172AD1A1B643B00DF03AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kidsi_ipad_App/Kidsi_ipad_App-Prefix.pch";
+				INFOPLIST_FILE = "Kidsi_ipad_App/Kidsi_ipad_App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F90172AF1A1B643B00DF03AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kidsi_ipad_App.app/Kidsi_ipad_App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kidsi_ipad_App/Kidsi_ipad_App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kidsi_ipad_AppTests/Kidsi_ipad_AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F90172B01A1B643B00DF03AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kidsi_ipad_App.app/Kidsi_ipad_App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kidsi_ipad_App/Kidsi_ipad_App-Prefix.pch";
+				INFOPLIST_FILE = "Kidsi_ipad_AppTests/Kidsi_ipad_AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F90172741A1B643B00DF03AA /* Build configuration list for PBXProject "Kidsi_ipad_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90172A91A1B643B00DF03AA /* Debug */,
+				F90172AA1A1B643B00DF03AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90172AB1A1B643B00DF03AA /* Build configuration list for PBXNativeTarget "Kidsi_ipad_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90172AC1A1B643B00DF03AA /* Debug */,
+				F90172AD1A1B643B00DF03AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F90172AE1A1B643B00DF03AA /* Build configuration list for PBXNativeTarget "Kidsi_ipad_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90172AF1A1B643B00DF03AA /* Debug */,
+				F90172B01A1B643B00DF03AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F90172711A1B643B00DF03AA /* Project object */;
+}
